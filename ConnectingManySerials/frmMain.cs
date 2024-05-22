@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace ConnectingManySerials
 {
-    public partial class frmMain : MetroFramework.Forms.MetroForm
+    public partial class frmMain :Form
     {
         public frmMain()
         {

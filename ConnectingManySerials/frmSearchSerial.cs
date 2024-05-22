@@ -28,7 +28,6 @@ namespace ConnectingManySerials
             using (SerialEntities db = new SerialEntities())
             {
 
-
                 var result = (from x in db.SerialDs
                               where x.SerialD1.Contains(keySearch)
                               group x by x.SerialM into g
